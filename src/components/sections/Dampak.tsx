@@ -84,7 +84,7 @@ export function Dampak() {
         >
           {/* Grid internal dengan pembatas garis dan set seimbang di kiri kanan (px-4 md:px-6) */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-y-8 md:gap-y-0 md:divide-x md:divide-white/10 text-center">
-            {dampak.map((item, i) => (
+            {dampak.map((item) => (
               <div 
                 key={item.title} 
                 className="group flex flex-col items-center justify-start px-4 md:px-6 transition-all duration-300"
